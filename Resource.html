@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboVision Club Jadavpur University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ecf949334d.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+  <!-- ---------- Header Part ----------  -->
+
+   <section class="header">
+      <nav>
+        <a href="index.html"><img src="images\RoboVision_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Resource.html">Resource</a></li>
+                <li><a href="Documentation.html">Documentation</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Alumni.html">Alumni</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+
+     <div class="text-box">
+        <!-- <a href="index.html"><img src="images\RoboVision_Club.png"></a> -->
+        <h1>RoboVision Club Presented By Jadavpur University</h1>
+        <p>A Journey Towards Technology</p>
+        <a href="#" class="hero-btn">Visit Us To Know More</a>
+     </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+   <!-- ---------- Footer Section ---------- -->
+   <br /> <br /> <br />
+   <footer class="footer">
+      <div class="footer-container">
+        <div class="social-icons">
+            <a href="mailto:robovisionclub@jadavpuruniversity.in" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+        <h4><b>Address: &nbsp;</b> Department of ETCE, &nbsp; Prayukti Bhavan, &nbsp;
+          IoT & ML LAB, &nbsp; Jadavpur University, &nbsp; Kolkata-32, &nbsp;
+          West Bengal, &nbsp; India</h4>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Jadavpur University RoboVision Club. All rights reserved. | Designed by Bibek Das</p>
+      </div>
+    </footer>
+
+
+    <!-- -------------- JavaScript For Toggle Menu --------------- -->
+
+<script>
+  var navLinks = document.getElementById('navLinks');
+  function showMenu(){
+    navLinks.style.right = '0';
+  }
+  function hideMenu() {
+    navLinks.style.right = '-120px';
+  }
+</script>
+
+
+</body>
+</html>

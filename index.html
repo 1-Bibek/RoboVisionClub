@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboVision Club Jadavpur University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ecf949334d.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+   <section class="header">
+      <nav>
+        <a href="index.html"><img src="images\RoboVision_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Resource.html">Resource</a></li>
+                <li><a href="Documentation.html">Documentation</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Alumni.html">Alumni</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+
+     <div class="text-box">
+        <!-- <a href="index.html"><img src="images\RoboVision_Club.png"></a> -->
+        <h1>RoboVision Club Presented By Jadavpur University</h1>
+        <p>A Journey Towards Technology</p>
+        <a href="#" class="hero-btn">Visit Us To Know More</a>
+     </div>
+
+   </section>
+
+     <!-- --------------- Project Focus ON --------------- -->
+   
+   <section class="project">
+    <h1>Project Focus ON</h1>
+    <!-- <p>RoboVision Club Jadavpur University</p> -->
+    
+    <div class="row">
+      <div class="project_col">
+        <h3>Robotics</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti saepe doloribus autem eum beatae, nesciunt adipisci dolorem, voluptates alias, nam fugiat soluta placeat sunt repellendus!</p>
+      </div>
+      <div class="project_col">
+        <h3>Computer Vision</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam exercitationem nobis sit itaque illum tenetur necessitatibus deleniti libero aliquam quas nulla fugiat laboriosam, pariatur ipsa.</p>
+      </div>
+      <div class="project_col">
+        <h3>Natural Language Processing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur elit. Accusamus quam assumenda vel. Blanditiis est dicta ullam animi, obcaecati alias perspiciatis asperiores accusantium commodi vero. Delectus?</p>
+      </div>
+    </div>
+   </section>
+
+   <section class="team">
+    <h1>Coordinated By</h1>
+    <div class="row">
+      <div class="team_col">
+        <img src="images\sheli.png" height="400px">
+        <div class="layer">
+          <h3>Prof. Sheli Sinha Chaudhury</h3>
+        </div>
+      </div>
+      <div class="team_col">
+        <img src="images\asfak.png" height="400px">
+        <div class="layer">
+          <h3>Dr. Asfak Ali</h3>
+        </div>
+      </div>
+      <div class="team_col">
+        <img src="images\team.png" height="400px">
+        <div class="layer">
+            <h3>RoboVision Team Members</h3>
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <!-- -------------- About Us --------------  -->
+
+  <section class="about">
+    <h1>About Us</h1><br />
+    <h4>Jadavpur University RoboVision Club</h4>
+    <br />
+    <div>
+      <p>The RoboVision Club at Jadavpur University is on a mission to unite students in an educational environment, providing a space to explore robotics, computer vision, and natural language processing through engaging projects. Beyond technical growth, the club focuses on fostering essential interpersonal skills, including teamwork, cooperation, perseverance, and sincerity. Open to students of all experience levels, the club welcomes those without any prior knowledge, emphasizing enthusiasm as the key requirement. Our environment is built on sharing wisdom and experiences among members, catering to individuals who aspire to design circuits and control their bots. Join us at the RoboVision Club, where passion and curiosity meet innovation, and together, we'll explore the exciting possibilities in these cutting-edge fields.</p>
+    </div>
+  </section>
+
+   <!-- ---------- Footer Section ---------- -->
+   <br /> <br /> <br />
+   <footer class="footer">
+      <div class="footer-container">
+        <div class="social-icons">
+            <a href="mailto:robovisionclub@jadavpuruniversity.in" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+        <h4><address><b>Address: &nbsp;</b> Department of ETCE, &nbsp; Prayukti Bhavan, &nbsp;
+          IoT & ML LAB, &nbsp; Jadavpur University, &nbsp; Kolkata-32, &nbsp;
+          West Bengal,&nbsp; India</address></h4>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Jadavpur University RoboVision Club. All rights reserved. | Designed by Bibek Das</p>
+      </div>
+    </footer>
+
+
+    <!-- -------------- JavaScript For Toggle Menu --------------- -->
+
+<script>
+  var navLinks = document.getElementById('navLinks');
+  function showMenu(){
+    navLinks.style.right = '0';
+  }
+  function hideMenu() {
+    navLinks.style.right = '-120px';
+  }
+</script>
+
+
+</body>
+</html>
