@@ -89,17 +89,14 @@ nav .fa-solid{
     .text-box h1{
         font-size: 14px;
     }
-    /* .nav-links ul li{
-        display: block;
-    } */
+
     .nav-links{
-        /* display: block; */
         position: fixed;
         background: #ff9b4e;
-        height: 100%;
-        width: 140px;
+        height: 100vh;
+        width: 30%;
         top: 0;
-        right: -140px;
+        right: -30%;
         text-align: left;
         z-index: 2;
         transition: 1s;
