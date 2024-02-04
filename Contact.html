@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboVision Club Jadavpur University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ecf949334d.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+   <section class="sub_header">
+      <nav>
+        <a href="index.html"><img src="images\RoboVision_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Resource.html">Resource</a></li>
+                <li><a href="Documentation.html">Documentation</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Alumni.html">Alumni</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+        <h1>Contact Us</h1>
+   </section>
+ 
+
+   <!-- -------------- contact us --------------  -->
+
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1843.1028397335122!2d88.371191!3d22.496465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271231683c9c9%3A0xa1c106bafe68626a!2sDepartment%20Of%20Electronics%20%26%20Telecommunication%20Engineering!5e0!3m2!1sen!2sin!4v1707025637775!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+   <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa-solid fa-house"></i>
+          <span>
+            <h5>IoT & Embedded ML LAB</h5>
+            <p>Department Of ETCE, &nbsp; Prajukti Bhavan, &nbsp; Jadavpur University, &nbsp; Jadavpur, &nbsp; Kolkata, &nbsp; West Bengal &nbsp; 700032</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>
+            <h5>+91 9876543210</h5>
+            <p>Monday to Friday | 11AM - 5PM</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-brands fa-github"></i>
+          <span>
+            <h5>RoboVision Club GitHub Page</h5>
+          </span>
+        </div>
+      </div>
+
+      <div class="contact-col">
+        <form action="">
+          <input type="text" placeholder="Enter Your Name" required>
+          <input type="text" placeholder="Enter Your Email Id" required>
+          <input type="text" placeholder="Enter Your Subject" required>
+          <textarea row="8" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn_1"> Send Message </button>
+        </form>
+      </div>
+    </div> 
+   </section>
+
+   <!-- ---------- Footer Section ---------- -->
+   
+   <footer class="footer">
+      <div class="footer-container">
+        <div class="social-icons">
+            <a href="mailto:robovisionclub@jadavpuruniversity.in" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+        <!-- <h4><address><b>Address: &nbsp;</b> Department of ETCE, &nbsp; Prayukti Bhavan, &nbsp;
+          IoT & ML LAB, &nbsp; Jadavpur University, &nbsp; Kolkata-32, &nbsp;
+          West Bengal,&nbsp; India</address></h4>
+      </div> -->
+
+      <div class="footer-bottom">
+        <p>&copy; Jadavpur University RoboVision Club. All rights reserved. | Designed by Bibek Das</p>
+      </div>
+    </footer>
+
+
+    <!-- -------------- JavaScript For Toggle Menu --------------- -->
+
+<script>
+  var navLinks = document.getElementById('navLinks');
+  function showMenu(){
+    navLinks.style.right = '0';
+  }
+  function hideMenu() {
+    navLinks.style.right = '-30%';
+  }
+</script>
+
+</body>
+</html>
